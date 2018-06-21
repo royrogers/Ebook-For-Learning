@@ -1,0 +1,85 @@
+24 Hours A Day, 300/1200 Baud
+Presents...
+
+
+####################################################################
+TOKET - Terbitan Online Kecoak Elektronik
+Defending the classical hackers mind since 1995
+
+Publisher : http://www.kecoak-elektronik.net
+Contact   : staff@kecoak-elektronik.net
+####################################################################
+
+
+Subject   : Hackers Game - Fun Playing The Router
+Writer    : BytesKrew
+Contact   : staff@kecoak-elektronik.net
+Style     : Unicode Transformation Format (UTF-8)
+
+
+--[1]-- Kecoak Elektronik License
+
+Kecoak Elektronik secara aktif mendukung Blue Ribbon Campaign.
+Kami akan berusaha untuk menerbitkan semua informasi yang kami anggap
+patut diketahui, baik dokumen teks, artikel majalah, atau surat kabar.
+Seluruh kredit akan diberikan kepada sang pengarang.
+
+Kecoak Elektronik tidak bertanggung jawab atas tindakan orang lain.
+Informasi yang disajikan di situs ini adalah untuk tujuan pendidikan
+dan informasionil belaka. Jika anda memutuskan untuk mengejawantahkan
+dalam bentuk apapun informasi yang tersimpan di situs ini, anda
+melakukan atas keputusan sendiri, dan tidak seorangpun selain anda
+bertanggung jawab atas tindakan tersebut.
+
+Dipersilahkan untuk mengambil sebagian atau seluruh dari isi artikel
+yang kami terbitkan dengan tetap mencantumkan kredit atas pengarang
+dan Kecoak Elektronik sebagai penerbit online. Artikel yang dikutip
+atau diambil tidak dapat dipergunakan untuk kepentingan komersil.
+
+
+--[2]-- Introduction
+
+Sudah menjadi cerita lama ketika byteskrew bersentuhan dengan device
+critical baik pada jaringan enterprise maupun telekomunikasi. Tetapi
+akses kami kesana hampir belum pernah tersentuh oleh pengelola jaringan.
+Terkait dengan topik yang kita bahas mengenai router, pada jaringan
+telekomunikasi terinstall ribuan device yang berperan pada proses
+telekomunikasi.
+
+Router merupakan piranti jaringan yang bekerja pada layer 3 model OSI
+dan berperan dalam forwarding paket data. Router bisa berupa PC yang
+difungsikan sebagai router atau dedicated router. Pada artikel ini
+definisi router dibatasi pada dedicated router saja. Pada pembahasan
+selanjutnya Cisco akan digunakan sebagai contoh beberapa Proof of 
+Concept yang dibuat.
+
+Jika kita menilik pada exploit-db, securiteam, atau packetstormsecurity
+kita menemui banyak sekali tool dan exploit yang dikembangkan untuk
+melakukan penyerangan pada router. Sebagai contoh adalah perl script
+cge.pl yang dikenal dengan Cisco Global Exploiter bisa dimanfaatkan
+untuk melakukan exploitasi beragam celah pada Cisco. Jika anda
+mengaharapkan artikel seperti ini bersiaplah anda untuk kecewa, kami
+tidak membahas artikel "how to use exploit". It's cheap game for kids!
+
+Ketika anda berhadapan dengan router jaringan perbankan atau
+telekomunikasi, anda bisa jadi tidak akan menemukan router dengan
+konfigurasi standard. Jangankan menemui konfigurasi standard, IP 
+address masing masing router hampir tidak mungkin untuk diakses dari 
+internet. Artikel ini ditujukan sebagai referensi ketika anda berhadapan
+dengan jaringan yang memiliki restriksi ACL cukup ketat dan topology
+jaringan yang cukup rapi.
+
+
+--[3]-- Here We Go!
+
+Pada artikel ini byteskrew hendak sedikit membahas bagaimana akses ke
+jaringan telekomunikasi mungkin, proses sniffing pada core router, dan
+teknik backdooring sederhana pada router.
+
+--[3.1]-- We are in the inside!
+--[3.2]-- Traffic sniffing
+--[3.3]-- Router backdooring
+
+--[5]-- Close word
+--[6]-- Reference
+--[7]-- Source code
